@@ -1,7 +1,7 @@
 # DashDrop
 Team Name: DashDrop
 
-Team Member Names: Tolu Olubode(8696226) Mac Linh Pham (8703691)
+Team Member Names: Tolu Olubode(8696226) Mac Linh Pham (8703691) Meina Oria (6865092)
 
 Product Name: DashDrop
 
