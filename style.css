@@ -112,12 +112,12 @@ body, html{
   background-position: center;
 }
 .buttons{
-    margin-left: 450px;
+    text-align: center;
     margin-top: 20px;
 
 }
 .signupbutton{
-    margin-left: 575px;
+    text-align: center;
     margin-top: 20px;
 
 }
