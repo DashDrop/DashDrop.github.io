@@ -72,8 +72,52 @@ body, html{
   position: relative;
   background-position: center;
 }
+.darkensend {
+  background-image: 
+  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+      ),
+  url("assets/send.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+.darkendeliver {
+  background-image: 
+  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+      ),
+  url("assets/deliver.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+.darkenteam {
+  background-image: 
+  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+      ),
+  url("assets/team.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
 .buttons{
     margin-left: 450px;
+    margin-top: 20px;
+
+}
+.signupbutton{
+    margin-left: 600px;
     margin-top: 20px;
 
 }
@@ -107,6 +151,37 @@ body, html{
   margin: 5px;
   font-family: 'Roboto', sans-serif;
 }
+.button3 {
+  border-radius: 4px;
+  background-color: #259D92;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 200;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+.button4 {
+  border-radius: 4px;
+  background-color: #259D92;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 200;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
 
 .button1 span {
   cursor: pointer;
@@ -122,9 +197,22 @@ body, html{
   transition: 0.5s;
   float: right;
 }
+.button3 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button4 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
 
 .button1 span:after {
-  content: '?';
+  content: ':)';
   position: absolute;
   opacity: 0;
   top: 0;
@@ -132,7 +220,23 @@ body, html{
   transition: 0.5s;
 }
 .button2 span:after {
-  content: '?';
+  content: ':)';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button3 span:after {
+  content: '!';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button4 span:after {
+  content: ':)';
   position: absolute;
   opacity: 0;
   top: 0;
@@ -146,12 +250,26 @@ body, html{
 .button2:hover span {
   padding-right: 25px;
 }
+.button3:hover span {
+  padding-right: 25px;
+}
+.button4:hover span {
+  padding-right: 25px;
+}
 
 .button1:hover span:after {
   opacity: 1;
   right: 0;
 }
 .button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button3:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button4:hover span:after {
   opacity: 1;
   right: 0;
 }
