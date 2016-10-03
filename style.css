@@ -17,8 +17,18 @@ body, html{
 }
 #txthead1{
     color: #26A69A;
-    font-size: 300%;
+    font-size: 450%;
     font-weight: 200;
+    letter-spacing: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+#teamtxt{
+    color: #26A69A;
+    font-size: 450%;
+    font-weight: 300;
     letter-spacing: 5px;
     padding-left: 20px;
     padding-top: 20px;
@@ -203,7 +213,7 @@ body, html{
   font-size: 28px;
   font-weight: 200;
   padding: 20px;
-  width: 250px;
+  width: 275px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
@@ -226,6 +236,35 @@ body, html{
   transition: 0.5s;
   text-align: center;
 }
+.text a span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  text-align: center;
+}
+.text1 a span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  text-align: center;
+}
+.text2 a span{
+    cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  text-align: center;
+}
+.text3 a span{
+    cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  text-align: center;
+}
+
 .button2 span {
   cursor: pointer;
   display: inline-block;
@@ -253,7 +292,7 @@ body, html{
 }
 
 .button1 span:after {
-  content: ':)';
+  content: url("assets/store.png");
   position: absolute;
   opacity: 0;
   top: 0;
@@ -268,8 +307,40 @@ body, html{
   right: -20px;
   transition: 1s;
 }
+.text a span:after {
+  content: url("assets/toluicon.png");
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 1s;
+}
+.text1 a span:after{
+  content: url("assets/hanicon.png");
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 1s;
+}
+.text2 a span:after{
+    content: url("assets/macicon.png");
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 1s;
+}
+.text3 a span:after{
+    content: url("assets/meinaicon.png");
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 1s;
+}
 .button2 span:after {
-  content: ':)';
+  content: url("assets/bicycle.png");
   position: absolute;
   opacity: 0;
   top: 0;
@@ -277,7 +348,7 @@ body, html{
   transition: 0.5s;
 }
 .button3 span:after {
-  content: '!';
+  content: url("assets/smile.png");
   position: absolute;
   opacity: 0;
   top: 0;
@@ -285,7 +356,7 @@ body, html{
   transition: 0.5s;
 }
 .button4 span:after {
-  content: ':)';
+  content: url("assets/handshake.png");
   position: absolute;
   opacity: 0;
   top: 0;
@@ -293,7 +364,7 @@ body, html{
   transition: 0.5s;
 }
 .button5 span:after {
-  content: '?';
+  content: url("assets/faq.png");
   position: absolute;
   opacity: 0;
   top: 0;
@@ -302,24 +373,35 @@ body, html{
 }
 
 .button1:hover span {
-  padding-right: 25px;
+  padding-right: 40px;
 }
 .nav1:hover a span {
-  padding-right: 110px;
+  padding-right: 160px;
 }
-
+.text:hover a span {
+  padding-right: 100px;
+}
+.text1:hover a span {
+  padding-right: 100px;
+}
+.text2:hover a span{
+     padding-right: 100px;
+}
+.text3:hover a span {
+  padding-right: 100px;
+}
 .button2:hover span {
-  padding-right: 25px;
+  padding-right: 40px;
 }
 .button3:hover span {
-  padding-right: 25px;
+  padding-right: 40px;
 }
 .button4:hover span {
-  padding-right: 25px;
+  padding-right: 40px;
 }
 
 .button5:hover span {
-  padding-right: 25px;
+  padding-right: 40px;
 }
 
 .button1:hover span:after {
@@ -330,6 +412,23 @@ body, html{
   opacity: 1;
   right: 0;
 }
+.text:hover a span:after {
+  opacity: 1;
+  right: 0;
+}
+.text1:hover a span:after {
+  opacity: 1;
+  right: 0;
+}
+.text2:hover a span:after {
+  opacity: 1;
+  right: 0;
+}
+.text3:hover a span:after {
+  opacity: 1;
+  right: 0;
+}
+
 .button2:hover span:after {
   opacity: 1;
   right: 0;
@@ -345,4 +444,30 @@ body, html{
 .button5:hover span:after {
   opacity: 1;
   right: 0;
+}
+.photo{
+    padding-left:100px;
+    padding-top: 20px;
+}
+.photo img{
+    background-image: url("assets/tolu.jpg");
+    background-repeat: no-repeat;
+     height: 150px;
+    width: 150px;
+    float: left;
+    border-radius: 50%
+
+}
+.text{
+    font-family: 'Roboto', sans-serif;
+}
+#teamdesc{
+    padding-left: 286px;
+    padding-top: 10px;
+    width: 800px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.teambody{
+    height: 100%
 }
