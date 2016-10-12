@@ -15,8 +15,7 @@ These are our color swatches:
 
 Iconography
 ===========
-We will focus on using icons that have a 'flat' design, which adheres to the overall look and feel.We have selected 
-When selecting an icon, please select the correct icon for the job and keep the following in mind:
+We will focus on using icons that have a 'natural flat color' design, which adheres to the overall look and feel of playfulness. We have selected.
 
 Typography
 ==========
@@ -24,8 +23,8 @@ We will be using Roboto from Google Fonts.
 
 Links
 =====
-Links will not be underlined and should change color when a user hovers over it.
+Links will not be underlined and most links should be attached to some kind of button.
 
 Buttons
 =======
-Buttons will be flat designed using the chosen colors outlined above.
+Buttons will be flat designed using the chosen colors outlined above with icons sliding out of the text.
