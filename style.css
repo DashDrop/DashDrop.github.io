@@ -528,7 +528,6 @@ body, html{
 #android{
   height: 44px;
     width: 150px;
-    padding-left: 500px;
 }
 #apple{
   width: 150px;
@@ -547,8 +546,8 @@ body, html{
     padding-top: 20px;
   
   }
-  #hantext{
-     font-family: 'Roboto', sans-serif;
-     color: red
-     font-weight: 200;
-  }
+.badges{
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
