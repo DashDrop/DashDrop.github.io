@@ -516,15 +516,15 @@ body, html{
 .teambody{
   height: 100%;
 }
-.footer{
+/*.footer{
    width:100%;
-   height:60px;   /* Height of the footer */
+   height:60px;   /* Height of the footer
    background:#6cf;
    clear: both;
     position: relative;
     z-index: 10;
     margin-top: -3em;
-}
+}*/
 #android{
   height: 44px;
     width: 150px;
