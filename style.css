@@ -730,3 +730,33 @@ a:hover{
   padding-left: 20px;
   padding-top: 20px;
 }
+
+
+.shipbutton {
+  border-radius: 1px;
+  background-color: white;
+  background-color: #259D92;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 10px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#sendhead{
+    color: #26A69A;
+    font-size: 350%;
+    font-weight: 300;
+    letter-spacing: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
