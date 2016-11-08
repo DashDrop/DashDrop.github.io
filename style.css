@@ -785,3 +785,12 @@ a:hover{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,1.0), 0 6px 20px 0 rgba(0,0,0,0.19);
 
 }
+
+.styletextbox{
+  padding-top: 5px
+  padding-left:10ox;
+  border-color:#259D92
+  border-radius:4px;
+  
+
+}
