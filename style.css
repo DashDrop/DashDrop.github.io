@@ -816,7 +816,12 @@ a:hover{
           
 .memtable{
   border-radius: 4px;
-  
+  border-width: 0px;
+  border-spacing: 0px;
+  padding: 0px;
+  text-align: left;
+  margin-left: 100px
+
 }
 
           
