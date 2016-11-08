@@ -786,22 +786,32 @@ a:hover{
 
 }
 .styletextbox{
-  padding-top:2px;
-  padding-bottom: 2px;
-  padding-right: 2px
-  padding-left:2px;
+  margin-top:0px;
+  margin-bottom:0px;
+  padding-right: 1px
+  padding-left:1px;
   margin-left:100px;
   border-style: solid;
   border-width: 2px;
   border-color: #259D92;
   border-radius: 4px;
-  width: 400px;
+  width: 300px;
   height: 30px;
   text-align: left;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-
-
 }
+<style>
+          table, th, td {
+            border: 1px solid #26A69A;
+        }
+        th, td {
+            padding: 5px;
+            text-align: left;
+        }
+        </style>
+  
+          
 
 
+          
