@@ -791,6 +791,10 @@ a:hover{
   padding-left:10ox;
   border-color:#259D92
   border-radius:4px;
+  border: 1px;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
   
+
 
 }
