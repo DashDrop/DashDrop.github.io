@@ -755,15 +755,16 @@ a:hover{
     font-size: 300%;
     font-weight: 300;
     letter-spacing: 5px;
-    padding-left: 20px;
+    padding-left: 100px;
     padding-top: 20px;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
 #senddesc{
-    padding-left: 80px;
+    padding-left: 200px;
     padding-top: 5px;
-    width: 900px;
+    padding-bottom: 10px;
+    width: 1000px;
     font-family: 'Roboto', sans-serif;
 }
 .sendbutton{
@@ -847,10 +848,12 @@ a:hover{
   border-radius: 4px;
   border-width: 4px;
   padding:0px;
+  padding-top: 10px;
+  margin-top: 10px;
   text-align: left;
-  margin-left: 100px;
+  margin-left: 200px;
   padding: 0px;
-  width: 800px;
+  width: 1000px;
   height: 60px;
 }
           
