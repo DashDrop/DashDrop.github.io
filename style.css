@@ -770,8 +770,9 @@ a:hover{
 .sendbutton{
     padding-top: none ;
     padding-left: 0px;
-    margin-left: 0px;
+    margin-left: 100px;
     padding-bottom: 20px;
+    margin-bottom: 20px;
     border-radius: 4px;
     background-color: #259D92;
     border: none;
@@ -789,9 +790,10 @@ a:hover{
 
 .sendbuttonb{
     padding-top: none ;
-    padding-left: 10px;
-    margin-left: 1000px;
+    padding-left: 0px;
+    margin-left: 200px;
     padding-bottom: 20px;
+    margin-bottom: 20px;
     border-radius: 4px;
     background-color: #259D92;
     border: none;
@@ -800,7 +802,7 @@ a:hover{
     align-content: left-center;
     font-size: 35px;
     font-weight: 300;
-    width: 250px;
+    width: 350px;
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,1.0), 0 6px 20px 0 rgba(0,0,0,0.19);
