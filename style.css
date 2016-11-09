@@ -868,3 +868,54 @@ a:hover{
   width: 250px;
   height: 100px;
   }
+
+  .memtable{
+  border-radius: 4px;
+  margin-left: 280px;
+  border-width: 0px;
+  border-spacing: 0px;
+  padding: 0px;
+  text-align: left;
+
+}
+.domeimagebtn{
+  background-image: url("Button image.jpg"); 
+  width: 250px;
+  height: 100px;
+  }
+
+#member{
+  display: flex;
+}
+
+#bike{
+  width: 200px
+  margin-left: 0px;
+  padding-left: 190px;
+  padding-right: 0px;
+}
+
+#signup{
+  flex:0.5;
+}
+
+.signbutton{
+    padding-top: none ;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-bottom: 0px;
+    border-radius: 4px;
+    background-color: #259D92;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    align-content: left-center;
+    font-size: 20px;
+    font-weight: 300;
+    width: 200px;
+    height:25px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,1.0), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
