@@ -755,22 +755,22 @@ a:hover{
     font-size: 300%;
     font-weight: 300;
     letter-spacing: 5px;
-    padding-left: 100px;
+    padding-left: 200px;
     padding-top: 20px;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
 #senddesc{
-    padding-left: 200px;
+    padding-left: 300px;
     padding-top: 5px;
     padding-bottom: 10px;
-    width: 1000px;
+    width: 900px;
     font-family: 'Roboto', sans-serif;
 }
 .sendbutton{
     padding-top: none ;
-    padding-left: 10px;
-    margin-left: 20px;
+    padding-left: 0px;
+    margin-left: 0px;
     padding-bottom: 20px;
     border-radius: 4px;
     background-color: #259D92;
@@ -851,9 +851,9 @@ a:hover{
   padding-top: 10px;
   margin-top: 10px;
   text-align: left;
-  margin-left: 200px;
+  margin-left: 300px;
   padding: 0px;
-  width: 1000px;
+  width: 900px;
   height: 60px;
 }
           
