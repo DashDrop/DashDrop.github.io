@@ -768,7 +768,7 @@ a:hover{
     font-family: 'Roboto', sans-serif;
 }
 .sendbutton{
-    padding-top: none ;
+    padding-top: 0px ;
     padding-left: 0px;
     margin-left: 100px;
     padding-bottom: 20px;
@@ -789,7 +789,7 @@ a:hover{
 }
 
 .sendbuttonb{
-    padding-top: none ;
+    padding-top: 10px ;
     padding-left: 0px;
     margin-left: 200px;
     padding-bottom: 20px;
@@ -903,7 +903,6 @@ a:hover{
 #signup{
   flex:0.5;
 }
-
 .signbutton{
     padding-top: none ;
     padding-left: 0px;
