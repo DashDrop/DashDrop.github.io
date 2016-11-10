@@ -415,7 +415,7 @@ body, html{
   transition: 1s;
 }
 .button2 span:after {
-  content: url("assets/bicycle.png");
+  content: url("assets/bicycle(2).png");
   position: absolute;
   opacity: 0;
   top: 0;
