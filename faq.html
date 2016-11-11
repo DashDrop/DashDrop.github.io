@@ -16,7 +16,7 @@
 	}
 	#freq{
 		font-family: 'Roboto', sans-serif;
-		color: white;
+		color: black;
 		text-align: center;
 		font-size: 60px;
 	}
@@ -26,7 +26,10 @@
 		font-size: 35px;
 	}
 	div.questionText{
-		margin-bottom: 10px;
+		margin-bottom: 30px;
+	}
+	#freqa {
+		text-decoration: none;
 	}
 	a.pageLinks{
 		text-decoration: none;
@@ -37,17 +40,39 @@
 		text-align: center;
 		font-size: 30px;
 		font-style: italic;
+		font-family: 'Roboto', sans-serif;
 	}
-	div.QAblock{
-
+	div.QAblock a{
+		text-align: center;
+		color: black;
+		font-size: 30px;
+		margin-left: 100px;
+		margin-right: 100px;
+		text-decoration: none;
+		font-family: 'Roboto', sans-serif;
+	}
+	div.QAblock ul{
+		text-align: left;
+		color: black;
+		font-size: 15px;
+		margin-left: 130px;
+		margin-right: 100px;
+		font-family: 'Roboto', sans-serif;
 	}
 	p.answers{
-		text-align: center;
+		text-align: left;
 		color: black;
 		font-size: 20px;
 		margin-left: 100px;
 		margin-right: 100px;
-
+		font-family: 'Roboto', sans-serif;
+	}
+	div.QAblock a.backToTop{
+		color:blue;
+		font-size: 10px;
+		text-align: left;
+		margin-left:800px;
+		margin-right: 100px;
 	}
 	
 	</style>
@@ -71,45 +96,54 @@
 			</div>
 		</div>
 	<div class="teambody">
+		<a id = "freqa">
 		<h1 id = "freq">
 			<strong>Frequently Asked Questions</strong>
 		</h1>
-		
+		</a>
 		<div class = "questions">
 			<div class = "questionText"><a class = "pageLinks" href="#q1">What items are considered to be acceptable for delivery?</a></div>
 			<div class = "questionText"><a class = "pageLinks" href="#q2">How safe are my items? Can I send high value items?</a></div>
-			<div class = "questionText"><a class = "pageLinks" href="#q3">Question 3 texttexttexttexttexttexttexttexttexttexttexttexttext</a></div>
-			<div class = "questionText"><a class = "pageLinks" href="#q4">Question 4 texttexttexttexttexttexttexttexttexttexttexttexttext</a></div>
-			<div class = "questionText"><a class = "pageLinks" href="#q5">Question 5 texttexttexttexttexttexttexttexttexttexttexttexttext</a></div>
-			<div class = "questionText"><a class = "pageLinks" href="#q6">Question 6 texttexttexttexttexttexttexttexttexttexttexttexttext</a></div>
+			<div class = "questionText"><a class = "pageLinks" href="#q3">Can I make a living off Dashdrop?</a></div>
+			<div class = "questionText"><a class = "pageLinks" href="#q4">Will items be sent at night?</a></div>
 		</div>
 
 		<div class = "QAblock">
 		<a id="q1">
 			<h3 class = "questionsWithAnswers">What items are considered to be acceptable for delivery?</h3>
-			<p class = "answers">Any item less than 100 pounds (40kg) and with volume less than 1 m cubed should be fine</p>
+			<p class = "answers">Any item less than 100 pounds (40kg) and with volume less than 1 m cubed should be fine. Keep in mind that the primary mode of transportation is via bicycle so heavier items will require a trailler which will result in longer wait times for such bike to be available.</p>
+			<a class = "backToTop" href="#freqa">back to top</a>
 		</a>
 		</div>
 
 		<div class = "QAblock">
 		<a id="q2">
 			<h3 class = "questionsWithAnswers">How safe are my items? can I send high value items</h3>
-			<p class = "answers">Dashdrop users must be cleared by our securoty team before they are alowed to conduct deliveries. 
-			In addition, there is a rate my deliverer option, allowing you to acess risk. Finally all items are ensured for 100$</p>
+			<p class = "answers">We take security very seriously and require Dashdrop to be cleared before they are alowed to conduct deliveries. 
+			Precautions taken to prevent theft include but are not limited to:</p>
+			<ul>
+				<li>Ensuring no criminal record for any Dashdrop deliverers</li>
+				<li>Requiring client signatures to confirm delivery</li>
+				<li>A no tolerance program that removes workers with any suspicious activity</li>
+			</ul>
+			<p class = "answers">In addition, there is a rate my deliverer option, allowing you (the user) to access risk. To make viewing this information easier, it is recomended that you read the reviews before considering sending sentimental or expensive items. Since customer satisfaction is our greatest concern, all items will be ensured for 100% of it's value up to $100</p>
+			<a class = "backToTop" href="#freqa">back to top</a>
 		</a>
 		</div>
 
 		<div class = "QAblock">
 		<a id="q3">
-			<h3 class = "questionsWithAnswers">What items are considered to be acceptable for delivery?</h3>
-			<p class = "answers">Any item less than 100 pounds (40kg) and with volume less than 1 m cubed should be fine</p>
+			<h3 class = "questionsWithAnswers">Can I make a living being a Dasher?</h3>
+			<p class = "answers">Unlike automobile based delivery, there is very little maintenance costs and no fuel cost. However, few people will posses the fitness level to be cycling with heavy packages for 8 hours a day, ignoring weather restrictions. We do suggest being a Dasher as a secondary job that can add 10-30k extra per year for minimal effort since the commute to and from work themselves are opertunities for delivery!</p>
+			<a class = "backToTop" href="#freqa">back to top</a>
 		</a>
 		</div>
 
 		<div class = "QAblock">
 		<a id="q4">
-			<h3 class = "questionsWithAnswers">What items are considered to be acceptable for delivery?</h3>
-			<p class = "answers">Any item less than 100 pounds (40kg) and with volume less than 1 m cubed should be fine</p>
+			<h3 class = "questionsWithAnswers">Will items be sent at night?</h3>
+			<p class = "answers">If there are Dashers active at night then items can be sent during the night. However, expect the frequency to be lower because most people will not be biking recreationally at night</p>
+			<a class = "backToTop" href="#freqa">back to top</a>
 		</a>
 		</div>
 	</div>
